@@ -21,9 +21,7 @@ export default function Details() {
     })
   }
   function triggerWhatsapp() {
-    let number = incident.whatsapp.replace(/\D/g, '')
-    let phone = number.search(/^5{2}/g) + 1 ? number : `55${number}`
-    Linking.openURL(`whatsapp://send?phone=${phone}&text=${message}`)
+    Linking.openURL(`whatsapp://send?phone=55${incident.whatsapp}&text=${message}`)
   }
   return (
     <View style={style.container}>
