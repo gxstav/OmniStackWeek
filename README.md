@@ -4,7 +4,7 @@ Project Application using Node.js , ReactJS and JavaScript
 ---
 
 ## HOW TO START
-**1.** `git clone it`
+**1.** clone it or fork it.
 
 ### On backend folder
 **1.** `yarn` <br>
